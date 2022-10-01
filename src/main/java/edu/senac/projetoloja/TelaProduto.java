@@ -236,7 +236,7 @@ public class TelaProduto extends javax.swing.JFrame {
 
         btnSair.setText("Sair");
 
-        txtValor.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0.00"))));
+        txtValor.setText("");
         txtValor.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 txtValorMouseEntered(evt);
